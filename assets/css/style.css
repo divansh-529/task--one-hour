@@ -1,4 +1,4 @@
-@import url(/assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 .mx-w-1140 {
     max-width: 1140px;
 }
@@ -8,9 +8,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 24px;
-    
     position: relative;
     padding-bottom: 65px;
+    margin-left :12px;
+    margin-right: 12px;
 }
 
 .red-box::after {
@@ -50,7 +51,7 @@
 }
 
 .get-a {
-margin-top: 36px;
+    margin-top: 36px;
     position: relative;
     z-index: 5;
     width: 173px;
@@ -67,7 +68,8 @@ margin-top: 36px;
     color: #FF0000;
     transition: all .5s linear;
 }
-.get-a:hover{
+
+.get-a:hover {
     color: white;
     background: #FF0000;
 
