@@ -24,6 +24,7 @@
 }
 
 .intrested {
+    padding-top: 64px;
     position: relative;
     font-family: Plus Jakarta Sans;
     font-size: 56px;
@@ -35,6 +36,7 @@
 }
 
 .lorem {
+    padding-top: 20px;
     position: relative;
     font-family: Plus Jakarta Sans;
     font-size: 18px;
@@ -42,6 +44,5 @@
     line-height: 28.8px;
     text-align: center;
     color: white;
-    z-index: 5
-    ;
+    z-index: 5;
 }
