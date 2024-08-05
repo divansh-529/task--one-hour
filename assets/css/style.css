@@ -1,3 +1,4 @@
+@import url(/assets/css/root.css);
 .mx-w-1140 {
     max-width: 1140px;
 }
@@ -7,8 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 24px;
-    height: 447px;
+    
     position: relative;
+    padding-bottom: 65px;
 }
 
 .red-box::after {
@@ -45,4 +47,28 @@
     text-align: center;
     color: white;
     z-index: 5;
+}
+
+.get-a {
+margin-top: 36px;
+    position: relative;
+    z-index: 5;
+    width: 173px;
+    height: 63px;
+    border-radius: 56px;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: center;
+    color: #FF0000;
+    transition: all .5s linear;
+}
+.get-a:hover{
+    color: white;
+    background: #FF0000;
+
 }
